@@ -1,13 +1,3 @@
-/**
-*************************************************************
-* @file directorio.c
-* @brief Lista los archivos del directorio actual
-*
-* @author Gaspar Fernández <blakeyed@totaki.com>
-* @web    http://totaki.com/poesiabinaria
-* @version
-* @date 18 sep 2011
-*************************************************************/
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -17,10 +7,11 @@
 
 #include <sys/stat.h>
 #include <unistd.h>
+#include <"fileutil.h">
 
 
 
-//Declaración de funciones 
+//DeclaraciÃ³n de funciones 
 
 void error(const char *s);
 int procesoArchivo(char *archivo);
@@ -125,7 +116,7 @@ else{
 }
 
 
-  while ((ent = readdir (dir)) != NULL ) //b<i/2 or a>i/2 padre leera la primer mitad mientras su contador aumenta +1 por cada iteraci�n, a leera la segunda mitad mientras su contador baja -1 por cada iteraci�n
+  while ((ent = readdir (dir)) != NULL ) //b<i/2 or a>i/2 padre leera la primer mitad mientras su contador aumenta +1 por cada iteración, a leera la segunda mitad mientras su contador baja -1 por cada iteración
     {
 
 
