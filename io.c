@@ -1,13 +1,3 @@
-/**
-*************************************************************
-* @file directorio.c
-* @brief Lista los archivos del directorio actual
-*
-* @author Gaspar Fernández <blakeyed@totaki.com>
-* @web    http://totaki.com/poesiabinaria
-* @version
-* @date 18 sep 2011
-*************************************************************/
 
 #include <stdlib.h>
 #include <stdio.h>
