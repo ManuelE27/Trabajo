@@ -181,7 +181,7 @@ a++;
  	
  	
  	
-printf("Estudiante_1:201622375\nTotal archivos: %d\nTotal bytes: %d PID:  %d\n",i,tot,pid);
+printf(("Estudiante_1: 201622375\nEstudiante_2: 201629898\nTotal archivos: %d\nTotal bytes: %d PID:  %d\n",i,tot,pid);
 //printf("%d",buf);
   //closedir (dir);
 
